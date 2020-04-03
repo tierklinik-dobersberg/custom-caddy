@@ -25,12 +25,12 @@ COPY --from=builder /go/build/caddy /usr/bin/caddy
 # list plugins
 RUN /usr/bin/caddy -plugins
 
-# static files volume
-VOLUME ["/www"]
-WORKDIR /www
+EXPOSE 80 443 2015
+VOLUME /root/.caddy /srv
+WORKDIR /srv
 
-#COPY Caddyfile /etc/caddy/Caddyfile
-#COPY index.md /www/index.md
+COPY Caddyfile /etc/Caddyfile
+COPY index.html /srv/index.html
 
-ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["caddy", "--conf", "/etc/caddy/Caddyfile"]
+ENTRYPOINT ["/sbin/tini", "--", "caddy"]
+CMD ["--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=$ACME_AGREE"]
