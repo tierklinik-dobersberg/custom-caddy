@@ -17,7 +17,7 @@ RUN cd /go/build && \
 FROM alpinelinux/docker-cli:latest
 
 # install deps
-RUN apk add --no-cache --no-progress curl tini ca-certificates
+RUN apk add --no-cache --no-progress curl tini ca-certificates git
 
 # copy Caddy binary
 COPY --from=builder /go/build/caddy /usr/bin/caddy
