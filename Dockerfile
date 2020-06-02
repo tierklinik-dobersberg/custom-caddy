@@ -14,7 +14,7 @@ RUN cd /go/build && \
     go build -o /go/build/caddy .
 
 # dist image
-FROM alpine:3.10
+FROM alpinelinux/docker-cli:latest
 
 # install deps
 RUN apk add --no-cache --no-progress curl tini ca-certificates
