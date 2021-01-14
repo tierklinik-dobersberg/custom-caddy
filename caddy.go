@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/caddyserver/caddy/caddy/caddymain"
 
+	_ "github.com/BTBurke/caddy-jwt/v3"
 	_ "github.com/abiosoft/caddy-git"
 	_ "github.com/dhaavi/caddy-permission"
 	_ "github.com/lucaslorentz/caddy-docker-proxy/plugin"

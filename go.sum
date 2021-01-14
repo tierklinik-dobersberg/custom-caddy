@@ -18,6 +18,10 @@ github.com/Azure/go-autorest/autorest/to v0.2.0/go.mod h1:GunWKJp1AEqgMaGLV+iocm
 github.com/Azure/go-autorest/autorest/validation v0.1.0/go.mod h1:Ha3z/SqBeaalWQvokg3NZAlQTalVMtOIAs1aGK7G6u8=
 github.com/Azure/go-autorest/logger v0.1.0/go.mod h1:oExouG+K6PryycPJfVSxi/koC6LSNgds39diKLz7Vrc=
 github.com/Azure/go-autorest/tracing v0.1.0/go.mod h1:ROEEAFwXycQw7Sn3DXNtEedEvdeRAgDr0izn4z5Ij88=
+github.com/BTBurke/caddy-jwt v1.0.1 h1:oJGSoXQCzd72NRoc861u/fFgyDDS52ZT4VA3KN9uWJU=
+github.com/BTBurke/caddy-jwt v3.7.1+incompatible h1:mohe32ARbtm8oBQN20BWoeRP75on9bUMbpf/jBx7/hc=
+github.com/BTBurke/caddy-jwt/v3 v3.7.3 h1:8Cm9UTDuhvctNaIgUuDmZv8Jg7uQmrZGJwU5TPKS2rg=
+github.com/BTBurke/caddy-jwt/v3 v3.7.3/go.mod h1:zE7cT0VSD8BEn577DRFE0k87kXYnb+a2RmBQjbj7vlU=
 github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Microsoft/go-winio v0.4.14 h1:+hMXMk01us9KgxGb7ftKQt2Xpf5hH/yky+TDA+qxleU=
@@ -64,6 +68,7 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/decker502/dnspod-go v0.2.0/go.mod h1:qsurYu1FgxcDwfSwXJdLt4kRsBLZeosEb9uq4Sy+08g=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dhaavi/caddy-permission v0.6.0 h1:KLs3iipSVbBL++tfe2hMaHvoZ6cH2KsFC08FONjmG9c=
 github.com/dhaavi/caddy-permission v0.6.0/go.mod h1:SxP0cQm4Qj4OnK8M783z+dwxo6onZPTUw3Qw7WJ42kQ=
